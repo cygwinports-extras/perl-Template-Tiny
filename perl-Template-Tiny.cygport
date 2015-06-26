@@ -3,7 +3,7 @@ inherit perl
 
 NAME="perl-Template-Tiny"
 VERSION=1.12
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl Template Toolkit subset implementation"
 DESCRIPTION="Template::Tiny is a reimplementation of a subset of the
@@ -11,3 +11,5 @@ functionality from Template Toolkit in as few lines of code as possible.
 It is intended for use in light-usage, low-memory, or low-cpu templating
 situations, where you may need to upgrade to the full feature set in the
 future, or if you want the retain the familiarity of TT-style templates."
+
+ARCH=noarch
